@@ -113,3 +113,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 30ms (Views: 14.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students" for 216.38.150.170 at 2020-07-01 19:13:47 +0000
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 403ms (Views: 400.6ms | ActiveRecord: 0.6ms)
+
+
